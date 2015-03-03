@@ -1,0 +1,39 @@
+<%= render 'layouts/admin/header.html.erb' %>
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+<%= render 'layouts/admin/sidebar.html.erb' %>
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+        <div class="page-content">
+            <%= render 'layouts/admin/modal.html.erb' %>
+			<!-- BEGIN PAGE HEADER-->
+			<h3 class="page-title">
+			Dashboard <small>reports & statistics</small>
+			</h3>
+			<div class="page-bar">
+				<ul class="page-breadcrumb">
+					<li>
+						<i class="fa fa-home"></i>
+						<a href="index.html">Home</a>
+						<i class="fa fa-angle-right"></i>
+					</li>
+					<li>
+						<a href="#">Dashboard</a>
+					</li>
+				</ul>
+			</div>
+			<!-- END PAGE HEADER-->
+			<div class="clearfix">
+			</div>
+		</div>
+	</div>
+	<!-- END CONTENT -->
+    <%# render 'layouts/admin/quick_sidebar.html.erb' %>
+</div>
+<!-- END CONTAINER -->
+<%= render 'layouts/admin/footer.html.erb' %>
+</body>
+<!-- END BODY -->
+</html>
